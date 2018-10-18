@@ -16,7 +16,7 @@ import {
     WHITE,
     YELLOW
 } from './constants';
-import {dataAttr} from "../../../helpers";
+import {dataAttr} from "../../helpers";
 
 interface IToolboxProps {
     name?: any;
