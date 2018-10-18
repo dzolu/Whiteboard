@@ -1,0 +1,193 @@
+@import "../../../styles/variables";
+
+.btn-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  padding: 0 !important;
+  display: block;
+  &--green {
+    background-color: $green-7e !important;
+    &:hover {
+      background: $green-7e !important;
+    }
+  }
+  &--black {
+    background-color: black !important;
+    &:hover {
+      background: black !important;
+    }
+  }
+  &--white {
+    background-color: white !important;
+    border: 1px solid $grey-70;
+    &:hover {
+      background: white !important;
+    }
+  }
+  &--red {
+    background-color: $red-E5 !important;
+    &:hover {
+      background: $red-E5 !important;
+    }
+  }
+  &--blue {
+    background-color: $blue-20 !important;
+    &:hover {
+      background: $blue-20 !important;
+    }
+  }
+  &--yellow {
+    background-color: $yellow-FF !important;
+    &:hover {
+      background: $yellow-FF !important;
+    }
+  }
+}
+
+.toolbox {
+  width: 400px;
+  margin: 0 auto;
+  cursor: auto;
+  &__color-line {
+    width: 14px;
+    height: 1px;
+    display: block;
+    &--green {
+      background: green;
+    }
+    &--blue {
+      background: blue;
+    }
+    &--red {
+      background: red;
+    }
+    &--yellow {
+      background: yellow;
+    }
+    &--orange {
+      background: orange;
+    }
+    &--black {
+      background: black;
+    }
+    &--white {
+      background: white;
+    }
+  }
+  .dropdown-toggle {
+    &::after {
+      border-top: .3em solid black;
+    }
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+  .dropdown-item {
+    padding: 4px 16px;
+    text-align: center;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      outline: 0;
+    }
+    &:active,
+    &:hover {
+      background: $grey-ea;
+    }
+    p {
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
+  button {
+    &:active,
+    &:hover {
+      background: $grey-ea;
+    }
+
+  }
+  .dropdown-menu {
+    min-width: 1rem;
+    top: 18px !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  }
+  &.box {
+    padding: 13px 20px;
+  }
+}
+
+.shape {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 5px 0;
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  &--circle {
+    &::before {
+      border-radius: 50%;
+    }
+  }
+  &--triangle {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid;
+  }
+
+  &--line {
+    &::before {
+      height: 2px;
+      transform: rotate(45deg);
+      margin-top: 4px;
+    }
+  }
+  &--green {
+    border-bottom-color: green;
+    &::before {
+      background: green;
+    }
+  }
+  &--blue {
+    border-bottom-color: blue;
+    &::before {
+      background: blue;
+    }
+  }
+  &--red {
+    border-bottom-color: red;
+    &::before {
+      background: red;
+    }
+  }
+  &--yellow {
+    border-bottom-color: yellow;
+    &::before {
+      background: yellow;
+    }
+  }
+  &--orange {
+    border-bottom-color: orange;
+    &::before {
+      background: orange;
+    }
+  }
+  &--black {
+    border-bottom-color: black;
+    &::before {
+      background: black;
+    }
+  }
+  &--white {
+    border-bottom-color: white;
+    &::before {
+      background: white;
+    }
+  }
+}
