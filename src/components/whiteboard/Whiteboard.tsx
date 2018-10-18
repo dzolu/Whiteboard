@@ -85,12 +85,7 @@ class Whiteboard extends React.Component<IProps, IState> {
     };
 
     componentDidMount() {
-        const canvas = this.canvas.current;
         document.addEventListener('paste', this.onPaste);
-        if (this.props.fullScreen && canvas) {
-            canvas.width = 1500;
-            canvas.height = 1500;
-        }
     }
 
     componentWillMount() {
