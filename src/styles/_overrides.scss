@@ -1,0 +1,54 @@
+@import "variables";
+
+.btn {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.color {
+  &--black {
+    color: black !important;
+  }
+  &--white {
+    color: white !important;
+  }
+}
+
+.font-size {
+  &--8 {
+    font-size: 8rem/$remSize;
+  }
+  &--12 {
+    font-size: 12rem/$remSize;
+  }
+  &--13 {
+    font-size: 13rem/$remSize;
+  }
+  &--14 {
+    font-size: 14rem/$remSize;
+  }
+  &--15 {
+    font-size: 15rem/$remSize;
+  }
+  &--16 {
+    font-size: 16rem/$remSize;
+  }
+  &--17 {
+    font-size: 17rem/$remSize;
+  }
+  &--18 {
+    font-size: 18rem/$remSize;
+  }
+  &--22 {
+    font-size: 22rem/$remSize;
+  }
+  &--40 {
+    font-size: 40rem/$remSize;
+  }
+}
+
+.bg-transparent {
+  background: transparent !important;
+}

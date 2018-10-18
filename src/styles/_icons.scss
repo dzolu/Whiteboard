@@ -1,0 +1,61 @@
+@import "variables";
+
+.icon {
+  position: relative;
+  display: inline-block;
+  &::before {
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &--erase {
+    &::before {
+      width: 22px;
+      height: 22px;
+      background: url("#{$image-path}/icon-eraser.svg") center no-repeat;
+    }
+  }
+  &--brush {
+    &::before {
+      width: 22px;
+      height: 22px;
+      background-image: url("#{$image-path}/icon-pencil.svg");
+    }
+  }
+  &--pointer {
+    &::before {
+      width: 22px;
+      height: 22px;
+      background-image: url("#{$image-path}/icon-pointer.svg");
+    }
+  }
+  &--dotted {
+    &::before {
+      width: 22px;
+      height: 17px;
+      background-image: url("#{$image-path}/icon-board-dotted.png");
+    }
+  }
+  &--lined {
+    &::before {
+      width: 22px;
+      height: 17px;
+      background-image: url("#{$image-path}/icon-board-lined.svg");
+    }
+  }
+  &--plain {
+    &::before {
+      width: 22px;
+      height: 17px;
+      background-image: url("#{$image-path}/icon-board-plain.svg");
+    }
+  }
+  &--grid {
+    &::before {
+      width: 22px;
+      height: 17px;
+      background-image: url("#{$image-path}/icon-board-grid.svg");
+    }
+  }
+}

@@ -1,0 +1,51 @@
+$image-path: "../assets/images";
+
+//layout
+
+$menuWidth: 230px;
+$footerHeight: 25px;
+$remSize: 16;
+
+$grey-3f: #3F3F3F;
+$grey-c4: #C4C4C4;
+$grey-7e: #7E7E7E;
+$grey-f0: #F0F0F0;
+$grey-70: #707070;
+$grey-ea: #EAEAEA;
+$green-7e: #7ED321;
+$green-2e: #2EC133;
+$blue-20: #204C6F;
+$yellow-FF: #FFFF45;
+$red-E5: #E52038;
+
+$blue-20: #204C6F;
+$red-e5: #E52038;
+
+// z-index
+$z-index-lowest: 10;
+$z-index-low: 20;
+$z-index-normal: 30;
+$z-index-high: 40;
+$z-index-highest: 50;
+
+//noinspection Stylelint
+$theme-colors: (
+        "primary": #006cae,
+        "secondary": #fc5c7d,
+        "success": #45b649,
+        "danger": #f85032,
+        "warning": #ffd700,
+        "info": #2fb6f3,
+        "tt-black": $grey-3f,
+        "tt-grey": $grey-c4,
+        "tt-blue": $blue-20
+);
+
+$enable-gradients: true;
+
+// card
+//
+$card-cap-bg: white;
+
+// sidebar
+$cr-sidebar-width: 224px;

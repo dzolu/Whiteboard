@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 757 761">
+    <defs>
+        <style>
+            .a,.d,.g{fill:none;}.b{fill:#fff;}.c{clip-path:url(#c);}.d{stroke:#c4c4c4;}.e{clip-path:url(#d);}.f{clip-path:url(#e);}.g{stroke:#a1ba85;stroke-width:2px;}.h{clip-path:url(#f);}}
+        </style>
+        <filter id="a" x="0" y="0" width="757" height="761" filterUnits="userSpaceOnUse">
+            <feOffset dy="3" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="3" result="b"/>
+            <feFlood flood-opacity="0.161"/>
+            <feComposite operator="in" in2="b"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <clipPath id="c">
+            <rect class="a" width="737" height="743"/>
+        </clipPath>
+        <clipPath id="d">
+            <rect class="a" width="739" height="714"/>
+        </clipPath>
+        <clipPath id="e">
+            <rect class="a" width="625" height="743"/>
+        </clipPath>
+        <clipPath id="f">
+            <rect class="a" width="625" height="740"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-232 6)">
+        <g class="i" transform="matrix(1, 0, 0, 1, 232, -6)">
+            <rect class="b" width="739" height="743" transform="translate(9 6)"/>
+        </g>
+        <g class="c" transform="translate(251)">
+            <g transform="translate(-271)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-251)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-231)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-211)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-191)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-171)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-151)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-131)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-111)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-91)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-71)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-51)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-31)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(-11)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(9)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(29)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(49)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(69)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(89)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(109)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(129)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(149)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(169)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(189)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(209)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(229)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(249)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(269)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(289)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(309)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(329)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(349)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(369)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(389)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(409)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(429)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+            <g transform="translate(449)">
+                <line class="d" y2="743" transform="translate(271)"/>
+            </g>
+        </g>
+        <g class="e" transform="translate(241 20)">
+            <g transform="translate(-241 -30)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 -10)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 10)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 30)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 50)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 70)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 90)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 110)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 130)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 150)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 170)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 190)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 210)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 230)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 250)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 270)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 290)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 310)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 330)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 350)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 370)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 390)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 410)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 430)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 450)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 470)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 490)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 510)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 530)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 550)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 570)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 590)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 610)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 630)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 650)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+            <g transform="translate(-241 670)">
+                <line class="d" x2="739" transform="translate(241 30)"/>
+            </g>
+        </g>
+        <g class="f" transform="translate(351)">
+            <g transform="translate(-351)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(-251)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(-151)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(-51)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(49)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(149)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(249)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+        </g>
+        <g class="h" transform="translate(981 60) rotate(90)">
+            <g transform="translate(-351)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(-251)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(-151)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(-51)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(49)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(149)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+            <g transform="translate(249)">
+                <line class="g" y2="743" transform="translate(351)"/>
+            </g>
+        </g>
+    </g>
+</svg>

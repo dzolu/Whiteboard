@@ -1,34 +1,32 @@
-@import "../../../styles/variables";
+@import "../../styles/variables";
 
 .whiteboard {
   background-size: 113% !important;
   background-position: 10% !important;
+  border: 1px solid black;
   &--plain {
     background: white;
   }
   &--square {
-    background: url("../../#{$image-path}/whiteboard-grid.svg") no-repeat white;
+    background: url("../#{$image-path}/whiteboard-grid.svg") no-repeat white;
   }
   &--dotted {
-    background: url("../../#{$image-path}/whiteboard-dotted.svg") no-repeat white;
+    background: url("../#{$image-path}/whiteboard-dotted.svg") no-repeat white;
   }
   &--lined {
-    background: url("../../#{$image-path}/whiteboard-lined.svg") no-repeat white;
+    background: url("../#{$image-path}/whiteboard-lined.svg") no-repeat white;
   }
   &--brush {
-    //cursor: url("../../#{$image-path}/icon-pencil2.png"), auto;
     .tool--brush {
       background-color: $grey-ea;
     }
   }
   &--pointer {
-    //cursor: url("../../#{$image-path}/icon-pointer.png"), auto;
     .tool--pointer {
       background-color: $grey-ea;
     }
   }
   &--erase {
-    //cursor: url("../../#{$image-path}/icon-erase.png"), auto;
     .tool--erase {
       background-color: $grey-ea;
     }

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './App.css';
+import './styles/styles.scss'
 import Whiteboard from "./components/whiteboard/Whiteboard";
 
 class App extends React.Component {
