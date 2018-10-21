@@ -261,15 +261,6 @@ class Whiteboard extends React.Component<{}, IState> {
         this.setState({
             [name]: value
         });
-
-        if (name === "minWidth" || name === "maxWidth") {
-            this.ctx().lineWidth = Number(this.state.lineWidth) + 1;
-        }
-        if (name === "customStroke" && value === true) {
-            this.ctx().lineWidth = this.state.lineWidth
-        } else if (name === "customStroke" && value === false) {
-            this.ctx().lineWidth = Number(this.state.lineWidth) + 1
-        }
     }
 
     onMouseDown = (e: any) => {
