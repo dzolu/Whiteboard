@@ -1,20 +1,30 @@
 @import "../../styles/variables";
 
 .whiteboard {
-  background-size: 113% !important;
-  background-position: 10% !important;
-  border: 1px solid black;
+  canvas {
+    background-size: 113% !important;
+    background-position: 10% !important;
+  }
+
   &--plain {
-    background: white;
+    canvas {
+      background: white;
+    }
   }
   &--square {
-    background: url("../#{$image-path}/whiteboard-grid.svg") no-repeat white;
+    canvas {
+      background: url("../#{$image-path}/whiteboard-grid.svg") no-repeat white;
+    }
   }
   &--dotted {
-    background: url("../#{$image-path}/whiteboard-dotted.svg") no-repeat white;
+    canvas {
+      background: url("../#{$image-path}/whiteboard-dotted.svg") no-repeat white;
+    }
   }
   &--lined {
-    background: url("../#{$image-path}/whiteboard-lined.svg") no-repeat white;
+    canvas {
+      background: url("../#{$image-path}/whiteboard-lined.svg") no-repeat white;
+    }
   }
   &--brush {
     .tool--brush {
@@ -30,8 +40,5 @@
     .tool--erase {
       background-color: $grey-ea;
     }
-  }
-  canvas{
-    width: 100%;
   }
 }

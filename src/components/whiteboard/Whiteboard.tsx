@@ -5,13 +5,20 @@ import {IRectangle} from "./IRectangle";
 import CanvasHelper from "../../services/CanvasHelper";
 import {ICircle} from "./ICircle";
 import {ITriangle} from "./ITriangle";
-import {BRUSH, CIRCLE, ERASE, GRID_PLAIN, LINE, POINTER, RECTANGLE, TRIANGLE} from '../toolbox/constants';
+import {
+    BRUSH,
+    CIRCLE,
+    ERASE,
+    GRID_PLAIN,
+    LINE,
+    POINTER,
+    RECTANGLE,
+    TOOLBAR_HEIGHT,
+    TRIANGLE
+} from '../toolbox/constants';
 import {ILine} from "./ILine";
 import "./_whiteboard.scss";
 
-interface IProps {
-    fullScreen: boolean;
-}
 
 interface IState {
     isDrawing: boolean;
@@ -31,10 +38,11 @@ interface IState {
     currentGrid: string
 }
 
-class Whiteboard extends React.Component<IProps, IState> {
+class Whiteboard extends React.Component<{}, IState> {
     canvas: RefObject<HTMLCanvasElement>;
+    container: RefObject<HTMLDivElement>;
 
-    constructor(props: IProps) {
+    constructor(props: {}) {
         super(props);
         this.state = {
             isDrawing: false,
@@ -78,6 +86,7 @@ class Whiteboard extends React.Component<IProps, IState> {
         this.draw = this.draw.bind(this);
         this.handleInputChange = this.handleInputChange.bind(this);
         this.canvas = React.createRef();
+        this.container = React.createRef();
     }
 
     ctx = () => {
@@ -85,7 +94,14 @@ class Whiteboard extends React.Component<IProps, IState> {
     };
 
     componentDidMount() {
+        const canvas = this.canvas.current;
         document.addEventListener('paste', this.onPaste);
+        if (canvas) {
+            canvas.width = (this.container.current && this.container.current.clientWidth) || 1000;
+            canvas.height = window.innerHeight - TOOLBAR_HEIGHT;
+        }
+
+
     }
 
     componentWillMount() {
@@ -321,8 +337,7 @@ class Whiteboard extends React.Component<IProps, IState> {
     render() {
         const {currentGrid, currentTool} = this.state;
         return (
-
-            <div className={`whiteboard whiteboard--${currentGrid} whiteboard--${currentTool}`}>
+            <div className={`whiteboard whiteboard--${currentGrid} whiteboard--${currentTool}`} ref={this.container}>
                 <Toolbox
                     pickUpColor={this.pickUpColor}
                     pickUpLineWidth={this.pickUpLineWidth}

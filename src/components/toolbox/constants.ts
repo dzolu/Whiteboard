@@ -25,3 +25,5 @@ export const GRID_PLAIN= "plain";
 export const GRID_DOTTED= "dotted";
 export const GRID_SQUARE= "square";
 export const GRID_LINED= "lined";
+
+export const TOOLBAR_HEIGHT= 100;
